@@ -1,0 +1,67 @@
+@font-face {
+  font-family: Gilroy-Regular;
+  font-style: normal;
+  font-weight: 400;
+  src: url(../assets/fonts/Gilroy-Regular.otf) format("opentype")
+}
+@font-face {
+  font-family: Gilroy-Medium;
+  font-style: normal;
+  font-weight: 500;
+  src: url(../assets/fonts/Gilroy-Medium.otf) format("opentype")
+}
+
+@font-face {
+  font-family: Gilroy-Bold;
+  font-style: normal;
+  font-weight: 700;
+  src: url(../assets/fonts/Gilroy-Bold.otf) format("opentype")
+}
+
+@font-face {
+  font-family: Gilroy-SemiBold;
+  font-style: normal;
+  font-weight: 600;
+  src: url(../assets/fonts/Gilroy-SemiBold.otf) format("opentype")
+}
+
+@font-face {
+  font-family: Golos-Regular;
+  font-style: normal;
+  font-weight: 400;
+  src: url(../assets/fonts/GolosText-Regular.woff) format("opentype")
+}
+
+@font-face {
+  font-family: Golos-Medium;
+  font-style: normal;
+  font-weight: 500;
+  src: url(../assets/fonts/GolosText-Medium.woff) format("opentype")
+}
+
+* {
+  box-sizing: border-box;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Gilroy-Medium, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+
+h1{
+  font-family: Gilroy-Medium;
+  font-size: 20px;
+  line-height: 24px;
+
+  @media (min-width: 768px){
+    font-size: 48px;
+    line-height: 52px;
+  }
+
+
+}

@@ -1,0 +1,56 @@
+.region-credit{
+  color: #000000;
+  text-align: left;
+
+  &__container{
+    max-width: 1264px;
+    padding: 0 16px;
+    margin: 0 auto;
+    @media (min-width: 1024px) {
+      padding: 0 40px;
+    }
+  }
+
+  &__title{
+    max-width: 1008px;
+    margin-bottom: 32px;
+  }
+
+  &__date-wrapper{
+    display: flex;
+  }
+
+  &__date{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: Golos-Regular;
+    margin-right: 8px;
+
+    svg{
+      margin-right: 10px;
+    }
+
+  }
+
+  &__link{
+    display: none;
+
+    @media (min-width: 768px){
+      display: block;
+      font-family: Golos-Regular;
+      font-size: 14px;
+      line-height: 20px;
+      color: #67A511;
+      text-decoration: none;
+      transition: .3s;
+
+      &:hover{
+        color: #8bc540;
+        transition: .3s;
+      }
+    }
+  }
+
+}
